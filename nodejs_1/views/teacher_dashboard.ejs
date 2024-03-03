@@ -1,0 +1,38 @@
+<!-- include header -->
+<%- include('include/_header') %>
+<!-- /include header -->
+
+<main id="site-main">
+    <div class="container">
+        <div class="box-nav d-flex justify-between">
+            <a href="/add-result" class="border-shadow">
+                <span class="text-gradient">Add Record <i class="fa-solid fa-plus"></i></span>
+            </a>
+            <a href="/logout" class="border-shadow" id="logout">
+                <span>Logout <i class="fa-solid fa-right-from-bracket"></i></span>
+            </a>
+        </div>
+
+        <!-- Form handling -->
+        <form action="/teacher", method="POST">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Roll No.</th>
+                        <th>Name</th>
+                        <th>Date of Birth</th>
+                        <th>Score</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!--include show -->
+                    <%- include('include/_show') %>
+                </tbody>
+            </table>
+        </form>
+    </div>
+</main>
+
+<!--include footer -->
+<%- include('include/_footer') %>

@@ -1,0 +1,37 @@
+<!-- include header -->
+<%- include('include/_header') %>
+<!-- /include header -->
+
+<main id="site-main">
+    <div class="container">
+        <div class="box-nav d-flex justify-between">
+            <div class="filter">
+                <a href="/"><i class="fas fa-angle-double-left"></i>Home Page</a>
+            </div>
+        </div>
+        <div class="form-title text-center">
+            <h2 class="text-dark">Search Result</h2>
+            <span class="text-light">Use the below form to search for your result</span>
+        </div>
+        
+    <form method="POST" id="search_result">
+        <div class="new_result">
+            <div class="form-group">
+                <label for="Roll No." class="text-light">Roll No.</label>
+                <input type="number" name="roll" required class="form-control" placeholder="Enter Roll No." max="999" min="100">
+            </div>
+            <div class="form-group">
+                <label for="D.O.B" class="text-light">Date of Birth</label>
+                <input type="date" name="dob2" required class="form-control" placeholder="Enter Date Of Birth" max="2005-12-31" min="1999-01-01">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn text-dark update">Submit</button>
+            </div>
+        </div>
+    </form>
+    </div>
+</main>
+
+<!--include footer -->
+<%- include('include/_footer') %>
+<!--include footer -->
