@@ -25,3 +25,11 @@ A Result Management System using HTML, CSS, JavaScript , NodeJs and ExpressJs.
   
 ## Frontend
 1. Open URL "https://localhost:3001" on a browser.
+
+## Screenshots
+![Home Page](https://github.com/TanishaSharma01/Result-Management-System/blob/main/Screenshots/1_homePage.png "Home Page")
+![Teacher Login](https://github.com/TanishaSharma01/Result-Management-System/blob/main/Screenshots/2_teacherLogin.png "Teacher Login")
+![Teacher Dashboard](https://github.com/TanishaSharma01/Result-Management-System/blob/main/Screenshots/6_teacherDashboard.png "Teacher Dashboard")
+![Add Result](https://github.com/TanishaSharma01/Result-Management-System/blob/main/Screenshots/9_updateResult.png "Update Result")
+![Result Searched](https://github.com/TanishaSharma01/Result-Management-System/blob/main/Screenshots/13_resultSearched.png "Result Searched")
+
